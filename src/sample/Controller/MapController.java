@@ -54,9 +54,12 @@ public class MapController {
     }
 
     @FXML
-    void OK_CLICKED(ActionEvent event) {
-
-
+    void OK_CLICKED(ActionEvent event)
+    {
+        webEngine.executeScript("getGeocodingService('55.99906 ,37.22374')");
+//       webEngine.executeScript("addmark(55.99906,37.22374)");
+//        webEngine.executeScript("addmark(56,37)");
+//
     }
     @FXML
     void initialize() {
