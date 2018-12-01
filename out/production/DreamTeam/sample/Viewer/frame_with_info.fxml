@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="136.0" fitWidth="382.0" layoutX="37.0" layoutY="14.0">
+         <image>
+            <Image url="../assets/newlogo.png" />
+         </image>
+      </ImageView>
+      <WebView layoutX="400.0" prefHeight="768.0" prefWidth="625.0" />
+      <Button layoutX="259.0" layoutY="255.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="105.0" style="-fx-background-color: #c32f4f;" text="Отследить" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <ListView layoutX="21.0" layoutY="170.0" prefHeight="60.0" prefWidth="345.0" />
+      <ListView layoutX="21.0" layoutY="324.0" prefHeight="361.0" prefWidth="345.0" />
+      <Line endX="100.0" layoutX="121.0" layoutY="158.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="121.0" layoutY="244.0" startX="-100.0" />
+      <ListView layoutX="24.0" layoutY="255.0" prefHeight="37.0" prefWidth="237.0" />
+      <Line endX="100.0" layoutX="121.0" layoutY="306.0" startX="-100.0" />
+      <Button layoutX="21.0" layoutY="710.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="70.0" style="-fx-background-color: #c32f4f;" text="Назад" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

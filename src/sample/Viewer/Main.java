@@ -13,12 +13,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Geodecoding.decode("41.8839,-87.6389,150");
-        Parent root = FXMLLoader.load(getClass().getResource("map.fxml"));
+//        Geodecoding.decode("55.99855 ,37.22449");
+        Parent root = FXMLLoader.load(getClass().getResource("mainframe.fxml"));
         primaryStage.setTitle("Delivery");
-//        primaryStage.getIcons().add(new Image("sample/assets/delivryicon.png"));
+        primaryStage.getIcons().add(new Image("sample/assets/icon.png"));
 
-        primaryStage.setScene(new Scene(root, 1000, 700));
+        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.setResizable(false);
         primaryStage.show();
         // cl.initialize();
