@@ -1,4 +1,3 @@
-
 <html>
 <head>
 
@@ -127,6 +126,18 @@
 	 {
 	  map.setCenter({lat:lat, lng:lng});
 	 }
+	 function customicon(lat,lng)
+{
+var svgMarkup = '<svg  width="30" height="30" xmlns="http://www.w3.org/2000/svg">' +
+'<rect stroke="black" fill="${FILL}" x="1" y="1" width="22" height="22" />' +
+'<text x="12" y="18" font-size="12pt" font-family="Arial" font-weight="bold" ' +
+'text-anchor="middle" fill="${STROKE}" >Me</text></svg>';
+var cubsIcon = new H.map.Icon(
+svgMarkup.replace('${FILL}', 'red').replace('${STROKE}', 'white')),
+cubsMarker = new H.map.Marker({lat: lat, lng: lng  },
+{icon: cubsIcon});
+map.addObject(cubsMarker);
+}
     </script>
 </body>
-</html>
+</html>v

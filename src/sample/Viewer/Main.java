@@ -30,8 +30,3 @@ public class Main extends Application {
 
 }
 
-//<!--function addmark(lat,lng)-->
-//<!--{-->
-//<!--var parisMarker = new H.map.Marker({lat:lat, lng:lng});-->
-//<!--map.addObject(parisMarker);-->
-//<!--}-->

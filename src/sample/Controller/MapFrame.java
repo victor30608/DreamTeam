@@ -43,6 +43,7 @@ public class MapFrame {
             a = Geodecoding.decode(data);
             webEngine.executeScript("searcPost('"+a.Getlat()+"' ,'"+a.Getlng()+"')");
             webEngine.executeScript("movemap('"+a.Getlat()+"' ,'"+a.Getlng()+"')");
+           webEngine.executeScript("customicon('"+a.Getlat()+"' ,'"+a.Getlng()+"')");
         }
         catch (Exception e)
         {
